@@ -27,7 +27,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://project-assignment-frontend-nxuz.vercel.app/"
+      "https://project-assignment-frontend-nxuz.vercel.app"
     ],
     credentials: true,
   })

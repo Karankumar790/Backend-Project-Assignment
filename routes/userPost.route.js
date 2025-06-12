@@ -22,8 +22,6 @@ postRouter
   .put(isAuthenticated, upload.single("media"), updatePost)
   .delete(isAuthenticated, deletePost);
 
-postRouter
-  .route("/getAllUserPost")
-  .get(isAuthenticated, getAllUserPosts);
+postRouter.route("/getAllUserPost").get(getAllUserPosts);
 
 export default postRouter;
