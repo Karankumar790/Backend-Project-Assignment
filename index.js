@@ -28,7 +28,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://e-learning-website-f.onrender.com",
+      "https://backend-project-assignment.onrender.com"
     ],
     credentials: true,
   })
